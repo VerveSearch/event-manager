@@ -2,6 +2,10 @@
 
 A JavaScript object-oriented class implementing the observer pattern. The class is intended for extension through prototypal inheritance. 
 
+## Dependencies 
+
+No dependencies. 
+
 ## Usage 
 
 ```javascript
