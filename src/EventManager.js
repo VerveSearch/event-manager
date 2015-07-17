@@ -37,6 +37,10 @@
 		this.listeners = {};
 	};
 
+	EventManager.extend = function(childCtor){
+		inherits(childCtor,EventManager);
+	};
+
 	EventManager.prototype = {
 		/**
 		 * @name vs.EventManager#addEventListener
